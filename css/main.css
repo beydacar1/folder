@@ -53,6 +53,9 @@
 .f-15 {
   font-size: 15px; }
 
+.f-14 {
+  font-size: 14px; }
+
 .img {
   width: 50px;
   height: 50px;
@@ -74,5 +77,33 @@
   border-radius: 5px;
   background-color: #F5F8FA !important; }
 
+.border3 {
+  border-radius: 3px; }
+
+.list-button {
+  height: 40px;
+  width: 120px;
+  height: 40px;
+  border-radius: 21px;
+  background-color: #1da1f2;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  font-weight: bold; }
+  .list-button:focus {
+    outline: none; }
+
 .menu-hover:hover {
   color: #657786; }
+
+.panel {
+  height: 50px;
+  line-height: 50px; }
+  .panel:hover {
+    background-color: #F5F8FA; }
+  .panel:active {
+    border-bottom: 2px solid #1da1f2; }
+
+.m-icon {
+  width: 22px;
+  height: 22px; }
