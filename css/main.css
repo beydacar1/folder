@@ -1,0 +1,66 @@
+.blue {
+  fill: #1da1f2; }
+
+.hover:hover {
+  fill: #1da1f2; }
+
+.tweet {
+  background-color: #1da1f2;
+  fill: #fff;
+  width: 47px;
+  height: 47px;
+  border-radius: 23px; }
+  .tweet svg {
+    width: 23px;
+    height: 23px; }
+
+.bg-l {
+  background-color: #E1E8ED; }
+
+.bg-l0 {
+  background-color: #AAB8C2; }
+
+.bg-d {
+  color: #657786;
+  text-decoration: none; }
+  .bg-d:hover {
+    color: #657786;
+    text-decoration: none;
+    background-color: #E1E8ED;
+    cursor: pointer; }
+
+.bg-b {
+  color: #000;
+  text-decoration: none; }
+  .bg-b:hover {
+    text-decoration: none;
+    background-color: #E1E8ED;
+    cursor: pointer; }
+
+.f-10 {
+  font-size: 13px; }
+
+.f-20 {
+  font-size: 20px; }
+
+.blue-color {
+  color: #1da1f2; }
+  .blue-color:hover {
+    text-decoration: none;
+    color: #1da1f2;
+    background-color: #E1E8ED; }
+
+.f-17 {
+  font-size: 17px; }
+
+.f-15 {
+  font-size: 15px; }
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; }
+
+.tweet-icon {
+  width: 30px;
+  height: 30px; }

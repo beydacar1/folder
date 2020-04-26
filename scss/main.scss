@@ -1,0 +1,78 @@
+
+            .blue{
+                fill:rgba(29,161,242,1.00) 
+            }
+            .hover{
+                svg{
+
+                }
+                &:hover{
+                    fill:rgba(29,161,242,1.00)
+                }
+            }
+            .tweet{
+                background-color: rgba(29,161,242,1.00);
+                fill: #fff;
+                width: 47px;
+                height: 47px;
+                border-radius: 23px;
+                svg{
+                    width: 23px;
+                    height: 23px;
+                }
+            }
+            .bg-l{
+               background-color:  #E1E8ED;
+            }
+            .bg-l0{
+                background-color: #AAB8C2;;
+            }
+            .bg-d{
+                color: #657786;
+                text-decoration: none;
+                &:hover{
+                    color: #657786;
+                    text-decoration: none;
+                    background-color:#E1E8ED ;
+                    cursor:pointer
+                }
+            }
+            .bg-b{
+                color: #000;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: none;
+                    background-color:#E1E8ED ;
+                    cursor:pointer
+                }
+            }
+            .f-10{
+                font-size: 13px;
+            }
+            .f-20{
+                font-size: 20px;
+            }
+            .blue-color{
+                color: rgba(29,161,242,1.00) ;
+                &:hover{
+                    text-decoration: none;
+                    color: rgba(29,161,242,1.00);
+                    background-color:#E1E8ED ;
+                }
+            }
+            .f-17{
+                font-size: 17px;
+            }
+            .f-15{
+                font-size: 15px;
+            }
+            .img{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+            }
+            .tweet-icon{
+                width: 30px;
+                height: 30px;
+                
+            }
