@@ -3,9 +3,6 @@
                 fill:rgba(29,161,242,1.00) 
             }
             .hover{
-                svg{
-
-                }
                 &:hover{
                     fill:rgba(29,161,242,1.00)
                 }
@@ -28,22 +25,21 @@
                 background-color: #AAB8C2;;
             }
             .bg-d{
-                color: #657786;
-                text-decoration: none;
                 &:hover{
-                    color: #657786;
-                    text-decoration: none;
-                    background-color:#E1E8ED ;
-                    cursor:pointer
+                    background-color:#E1E8ED !important;
+                    cursor:pointer !important;
+                    text-decoration: none !important;
                 }
             }
+            .d{
+                color: #657786;
+                text-decoration: none !important; 
+            }
             .bg-b{
-                color: #000;
-                text-decoration: none;
                 &:hover{
-                    text-decoration: none;
                     background-color:#E1E8ED ;
-                    cursor:pointer
+                    cursor:pointer;
+                    text-decoration: none !important;
                 }
             }
             .f-10{
@@ -54,10 +50,10 @@
             }
             .blue-color{
                 color: rgba(29,161,242,1.00) ;
+                text-decoration: none !important; 
                 &:hover{
-                    text-decoration: none;
-                    color: rgba(29,161,242,1.00);
-                    background-color:#E1E8ED ;
+                    text-decoration: none !important;
+                    color: rgba(29,161,242,1.00) ;
                 }
             }
             .f-17{
@@ -75,4 +71,24 @@
                 width: 30px;
                 height: 30px;
                 
+            }
+            .b{
+                color: #000;
+                text-decoration: none !important;
+            }
+            .icon{
+                width: 15px;
+                height: 15px;
+            }
+            .card-border{
+                border-radius: 5px;
+                background-color:#F5F8FA !important;
+                
+            }
+            .menu-hover{
+                &:hover{
+                 
+                color: #657786;
+                }
+               
             }

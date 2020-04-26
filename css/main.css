@@ -20,22 +20,19 @@
 .bg-l0 {
   background-color: #AAB8C2; }
 
-.bg-d {
-  color: #657786;
-  text-decoration: none; }
-  .bg-d:hover {
-    color: #657786;
-    text-decoration: none;
-    background-color: #E1E8ED;
-    cursor: pointer; }
+.bg-d:hover {
+  background-color: #E1E8ED !important;
+  cursor: pointer !important;
+  text-decoration: none !important; }
 
-.bg-b {
-  color: #000;
-  text-decoration: none; }
-  .bg-b:hover {
-    text-decoration: none;
-    background-color: #E1E8ED;
-    cursor: pointer; }
+.d {
+  color: #657786;
+  text-decoration: none !important; }
+
+.bg-b:hover {
+  background-color: #E1E8ED;
+  cursor: pointer;
+  text-decoration: none !important; }
 
 .f-10 {
   font-size: 13px; }
@@ -44,11 +41,11 @@
   font-size: 20px; }
 
 .blue-color {
-  color: #1da1f2; }
+  color: #1da1f2;
+  text-decoration: none !important; }
   .blue-color:hover {
-    text-decoration: none;
-    color: #1da1f2;
-    background-color: #E1E8ED; }
+    text-decoration: none !important;
+    color: #1da1f2; }
 
 .f-17 {
   font-size: 17px; }
@@ -64,3 +61,18 @@
 .tweet-icon {
   width: 30px;
   height: 30px; }
+
+.b {
+  color: #000;
+  text-decoration: none !important; }
+
+.icon {
+  width: 15px;
+  height: 15px; }
+
+.card-border {
+  border-radius: 5px;
+  background-color: #F5F8FA !important; }
+
+.menu-hover:hover {
+  color: #657786; }
