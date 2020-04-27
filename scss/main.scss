@@ -22,7 +22,7 @@
                background-color:  #E1E8ED;
             }
             .bg-l0{
-                background-color: #AAB8C2;;
+                background-color: #AAB8C2;
             }
             .bg-d{
                 &:hover{
@@ -56,6 +56,15 @@
                     color: rgba(29,161,242,1.00) ;
                 }
             }
+            .blue-hover{
+                &:hover{
+                    text-decoration: none !important;
+                    color: rgba(29,161,242,1.00)
+                }
+            }
+            .f-20{
+                font-size: 20px;
+            }
             .f-17{
                 font-size: 17px;
             }
@@ -88,8 +97,15 @@
                 background-color:#F5F8FA !important;
                 
             }
+            .border10{
+                border-radius: 10px;
+                border: none!important;
+            }
             .border3{
                 border-radius: 3px;
+            }
+            .border5{
+                border-radius: 5px;
             }
             .list-button{
                 height: 40px ;
@@ -125,4 +141,10 @@
             .m-icon{
                 width: 22px ;
                 height: 22px;
+            }
+            .s-icon{
+                fill: #657786;
+            }
+            .grey{
+                fill: #657786;
             }
