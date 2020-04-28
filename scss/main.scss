@@ -1,10 +1,4 @@
-html{
-    display: block;
-    position: relative;
-}
-body{
-    position: relative;
-}
+
 
 .blue {
   fill: rgba(29, 161, 242, 1);
@@ -98,6 +92,7 @@ body{
   width: 15px;
   height: 15px;
 }
+
 .card-border {
   border-radius: 5px;
   background-color: #f5f8fa !important;
@@ -189,6 +184,10 @@ body{
   font-weight: normal;
   font-size: 15px;
 }
+.menu-icon{
+    width: 50px;
+    height: 26px;
+}
 .index{
     z-index: 1;
 }
@@ -200,4 +199,23 @@ input[type="text"] {
         box-shadow: none;
     }
   
+  }
+  .opened{
+      &:focus{
+          fill: rgba(29, 161, 242, 1);
+      }
+      
+  }
+  .sidebar-item{
+      position: absolute;
+      height: auto;
+  }
+  .make-me-sticky{
+    position: -webkit-sticky;
+	position: fixed;
+    top: 0;
+    height: 100%;
+  }
+  .make-me-sticky2{
+
   }
