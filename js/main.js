@@ -1,27 +1,24 @@
-function takip() {
-    alert("Takip edildi.")
+
+function tiklandi(e){
+    if(e == 'retweet') alert(e + " yapildi")
+    if(e == 'yorum') alert(e + " yapildi")
+    if(e == 'begeni') alert(e + " yapildi")
+    if(e == 'takip') alert(e + " edildi")
+    if(e == 'link') alert(e + " kopyalandi")
 }
-function yorum() {
-    alert("Yorum yapıldı.")
+
+function acil(e) {
+    var tweetHTML = document.getElementById("tweet")
+    console.log(tweetHTML)
+  if ( tweetHTML.style.display == "none") {
+    tweetHTML.classList.add("active")
+    console.log(tweetHTML)
+  } else {
+    tweetHTML = "none"
+  }
 }
-function retweet() {
-    alert("Retweet yapıldı.")
-}
-function begen() {
-    alert("Beğenildi.")
-}
-function paylas() {
-    alert("Link kopyalandı.")
-}
-function tweetlendi() {
-    alert("Tweet gönderildi.")
-}
-function olustur() {
-    alert("Liste oluşturuldu.")
-}
-var acilan = document.getElementById("acilan").addEventListener("click", acil );
-function acil() {
-    document.getElementById("aa").style.display= "block";
-    document.getElementById("aa").style.position= "absolute";
-    document.getElementById("aa").style.margin= "auto";
+function kapan(e) {
+  if ( tweetHTML.classList == "active")  {
+    tweetHTMLL.classList.remove("active")
+  } 
 }

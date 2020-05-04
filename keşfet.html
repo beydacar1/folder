@@ -15,7 +15,7 @@
   <body>
     <div class="container">
         <div class="row">
-          <div class="col-1 pt-2 sidebar-item">
+          <div class="col-lg-1 col-2 col-md-2 col-sm-2 col-xl-1 pt-2  pl-0  sidebar-item">
             <div class="make-me-sticky">
               <nav class="nav flex-column ">
                           <a class="nav-link active mb-3" href="index.html">
@@ -148,7 +148,7 @@
             </div>
             
           </div>
-              <div class="col-7 pt-2 border p-0">
+              <div class="col-lg-7 col-md-10 col-sm-10 col-xl-7 col-10 pt-2 border p-0">
                 <div class="d-flex position-relative  mb-4 ml-3 mr-5">
                   <a href=""><svg viewBox="0 0 24 24" class="m-icon grey  position-relative ml-3 mt-2 index"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg></a>
                   <input
@@ -241,84 +241,61 @@
                 
                  
               </div>
-              <div class="col-4 pt-2">
-                <div class="card rounded-lg mt-1 card-border">
-                    <ul class="list-group list-group-flush">
-                        <li class="media border-bottom "><p class="font-weight-bolder f-17 ml-3 mt-3">Kimi takip etmeli</p></li>
-                      <a class="bg-d" href=""
-                        ><li class="media border-bottom pb-3 pt-2">
-                          <img
-                            src="images/profil.jpg"
-                            class="mr-1 col-3 rounded-circle"
-                            alt="..."
-                          />
-                          <div class="media-body d-flex">
-                            <div class="d-flex flex-column">
-                              <b class="font-weight-bolder b">Beyda Acar</b>
-                              <p class="font-weight-tiny pr-4 d">@beydacar1</p>
-                            </div>
-                            <button class="takip-button mt-2 font-weight-bolder ml-4 p-0" onclick="takip()">
-                            <p>Takip et</p> 
-                            </button>
+              <div class="col-lg-4 col-xl-4 pt-2" id="none">
+                <div class="card rounded-lg mt-3 card-border ">
+                  <ul class="list-group list-group-flush">
+                  
+                      <li class="media border-bottom pb-3 pt-2 bg-d">
+                        <img
+                          src="images/profil.jpg"
+                          class="img ml-2 mr-2 mt-2 "
+                          alt="..."
+                        />
+                        <div class="media-body d-flex justify-content-around">
+                          <div class="d-flex flex-column">
+                            <b class="font-weight-bolder b mt-1">Beyda Acar</b>
+                            <p class="font-weight-tiny d pr-4">@beydacar1</p>
                           </div>
-                        </li></a>
-                        <a class="bg-d" href=""
-                        ><li class="media border-bottom pb-3 pt-2">
-                          <img
-                            src="images/profil.jpg"
-                            class="mr-1 col-3 rounded-circle"
-                            alt="..."
-                          />
-                          <div class="media-body d-flex">
-                            <div class="d-flex flex-column">
-                              <b class="font-weight-bolder b">Beyda Acar</b>
-                              <p class="font-weight-tiny pr-4 d">@beydacar1</p>
-                            </div>
-                            <button class="takip-button mt-2 font-weight-bolder ml-4  p-0"   >
-                            <p >Takip et</p> 
-                            </button>
+                          <button class="takip-button mt-2  font-weight-bolder "  onclick="tiklandi('takip')">
+                            Takip et
+                          </button>
+                        </div>
+                      </li>
+                      <li class="media border-bottom pb-3 pt-2 bg-d">
+                        <img
+                          src="images/profil.jpg"
+                          class="img ml-2 mr-2 mt-2 "
+                          alt="..."
+                        />
+                        <div class="media-body d-flex justify-content-around">
+                          <div class="d-flex flex-column ">
+                            <b class="font-weight-bolder b mt-1">Beyda Acar</b>
+                            <p class="font-weight-tiny d pr-4">@beydacar1</p>
                           </div>
-                        </li></a>
-                        <a class="bg-d" href=""
-                        ><li class="media border-bottom pb-3 pt-2">
-                          <img
-                            src="images/profil.jpg"
-                            class="mr-1 col-3 rounded-circle"
-                            alt="..."
-                          />
-                          <div class="media-body d-flex">
-                            <div class="d-flex flex-column">
-                              <b class="font-weight-bolder b">Beyda Acar</b>
-                              <p class="font-weight-tiny pr-4 d">@beydacar1</p>
-                            </div>
-                            <button class="takip-button mt-2 font-weight-bolder ml-4  p-0">
-                            <p >Takip et</p> 
-                            </button>
+                          <button class="takip-button mt-2 font-weight-bolder ">
+                            Takip et
+                          </button>
+                        </div>
+                      </li>
+                      <li class="media border-bottom pb-3 pt-2 bg-d">
+                        <img
+                          src="images/profil.jpg"
+                          class="img ml-2 mr-2 mt-2 "
+                          alt="..."
+                        />
+                        <div class="media-body d-flex justify-content-around">
+                          <div class="d-flex flex-column ">
+                            <b class="font-weight-bolder b mt-1">Beyda Acar</b>
+                            <p class="font-weight-tiny d pr-4">@beydacar1</p>
                           </div>
-                        </li></a>
-                        <a class="bg-d" href=""
-                        ><li class="media border-bottom pb-3 pt-2">
-                          <img
-                            src="images/profil.jpg"
-                            class="mr-1 col-3 rounded-circle"
-                            alt="..."
-                          />
-                          <div class="media-body d-flex">
-                            <div class="d-flex flex-column">
-                              <b class="font-weight-bolder b">Beyda Acar</b>
-                              <p class="font-weight-tiny pr-4 d">@beydacar1</p>
-                            </div>
-                            <button class="takip-button mt-2 font-weight-bolder ml-4  p-0">
-                            <p >Takip et</p> 
-                            </button>
-                          </div>
-                        </li></a>
-        
-                      <a class="blue-color bg-d" href=""
-                        ><li class="media pt-2 pb-2 pl-3 ">Daha fazla göster</li></a
-                      >
-                    </ul>
-                  </div>
+                          <button class="takip-button mt-2 font-weight-bolder ">
+                            Takip et
+                          </button>
+                        </div>
+                      </li>
+                    <li class="media pt-2 pb-2 pl-3 bg-d blue-color">Daha fazla göster</li>
+                  </ul>
+                </div>
                   <div>
                     <ul class="nav font-weight-tiny mt-2">
                       <li class="mr-3"><a class="f-10 d menu-hover" href="">Şartlar</a></li>

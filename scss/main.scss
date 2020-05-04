@@ -85,8 +85,8 @@ body{
   border-radius: 25px;
 }
 .tweet-icon {
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
 }
 .b {
   color: #000;
@@ -112,15 +112,12 @@ body{
   border-radius: 5px;
 }
 .list-button {
-  height: 40px;
-  width: 120px;
-  height: 40px;
-  border-radius: 21px;
+  border-radius: 20px;
   background-color: rgba(29, 161, 242, 1);
-  font-size: 15px;
+  font-size: 0.8em;
+  padding: 5px;
   color: #fff;
   border: none;
-  font-weight: bold;
   &:focus {
     outline: none;
   }
@@ -261,13 +258,13 @@ input[type="text"] {
   }
   .ic{
     height: 100vh;
-    width: 100%;
+    width: 100% !important;
     overflow-y: scroll;
   }
 .icerik{
   position: absolute;
-  width: 100%;
-  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 .area-text{
   border:none !important;
@@ -281,4 +278,32 @@ input[type="text"] {
 }
 #aa{
   display: none;
+}
+.active{
+  display: block !important
+}
+.dis-ic{
+  position: absolute;
+  min-width: 100% !important;
+  min-height: 87% !important; 
+}
+.write{
+  min-width: max-content !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: 0px !important;
+}
+@media  (max-width:991px) {
+  #none{
+    display: none;
+  }
+}
+.make-sticky{
+  position: sticky;
+}
+.twetle{
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  z-index: ;
 }
