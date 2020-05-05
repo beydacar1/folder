@@ -7,18 +7,17 @@ function tiklandi(e){
     if(e == 'link') alert(e + " kopyalandi")
 }
 
+
+var tweetHTML = document.getElementById("tweet")
 function acil(e) {
-    var tweetHTML = document.getElementById("tweet")
-    console.log(tweetHTML)
   if ( tweetHTML.style.display == "none") {
     tweetHTML.classList.add("active")
-    console.log(tweetHTML)
   } else {
     tweetHTML = "none"
   }
 }
 function kapan(e) {
   if ( tweetHTML.classList == "active")  {
-    tweetHTMLL.classList.remove("active")
+    tweetHTML.classList.remove("active")
   } 
 }

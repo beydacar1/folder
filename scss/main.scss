@@ -280,7 +280,13 @@ input[type="text"] {
   display: none;
 }
 .active{
-  display: block !important
+  display: block !important;
+  
+  display: flex !important;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    position: absolute;
 }
 .dis-ic{
   position: absolute;
@@ -302,8 +308,15 @@ input[type="text"] {
   position: sticky;
 }
 .twetle{
-  margin: auto;
   background-color: #fff;
-  position: relative;
-  z-index: ;
+}
+#tweet{
+  width: 1200px!important;
+  height: 100vh !important;
+  z-index: 5;
+}
+.tweetle{
+  border-radius: 15px;
+  background-color: #fff;
+  border: none;
 }
